@@ -1,0 +1,20 @@
+[project]
+name = "projeto-ml-pizzas"
+version = "0.1.0"
+description = "Web App interativo para predição de preços de produtos utilizando Regressão Linear e Streamlit."
+authors = [
+    {name = "Elias Santos Silva",email = "eliass.s@outlook.com.br"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=3.0.2,<4.0.0)",
+    "scikit-learn (>=1.8.0,<2.0.0)",
+    "streamlit (>=1.56.0,<2.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "ipykernel (>=7.2.0,<8.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
