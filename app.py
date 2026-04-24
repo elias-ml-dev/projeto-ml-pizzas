@@ -26,7 +26,6 @@ st.title("🍕 Previsão de Preço de Pizza")
 st.markdown("Interface desenvolvida para estimar o valor de uma pizza com base no diâmetro.")
 st.divider()
 
-# Criando colunas para organizar o layout lateralmente
 col1, col2 = st.columns(2)
 
 with col1:
@@ -45,8 +44,7 @@ with col2:
 
 st.divider()
 
-# --- DOCUMENTAÇÃO E DEPURAÇÃO ---
-# Opção para o usuário visualizar a base de dados utilizada no treinamento
+
 if st.checkbox("Visualizar base de dados original"):
     st.write(df)
 
